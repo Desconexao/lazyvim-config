@@ -1,0 +1,17 @@
+--true return {
+--   {
+--     "stevearc/conform.nvim",
+--     opts = {
+--       formatters_by_ft = {
+--         c = { "clang-format" },
+--         cpp = { "clang-format" },
+--       },
+--       format_on_save = true, -- Mantém a formatação ao salvar
+--       formatters = {
+--         ["clang-format"] = {
+--           args = { "--style={BasedOnStyle: LLVM, ArrayInitializerBreakEachLine: false}" },
+--         },
+--       },
+--     },
+--   },
+-- }
